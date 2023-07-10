@@ -1,0 +1,28 @@
+/* defult margin/padding set  */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* defult font family */
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* top section style  */
+
+.top_section {
+    width: 1920px;
+    height: 850px;
+    background-color: #E554731A;
+}
+
+.heading {
+    color: #272727;
+    font-family: Lato;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    width: 708px;
+}
