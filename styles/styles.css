@@ -56,7 +56,6 @@ body {
 /* start featured flowers section style  */
 
 .featured_flowers {
-    padding-top: 178px;
     display: flex;
     justify-content: center;
     width: 1920px;
@@ -70,7 +69,7 @@ body {
     text-align: center;
     font-size: 40px;
     font-weight: 800;
-    
+
 }
 
 .featured_descrition {
@@ -83,13 +82,13 @@ body {
     padding: 24px 0px 48px 0px;
 }
 
-.pick_flower_cintainer {
+.pick_flower_container {
     display: flex;
     gap: 24px;
     justify-content: center;
 }
 
-.pick_flower_cintainer1 {
+.pick_flower_container1 {
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
@@ -97,7 +96,7 @@ body {
     text-align: center;
 }
 
-.pick_flower_cintainer2 {
+.pick_flower_container2 {
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
@@ -105,18 +104,64 @@ body {
     text-align: center;
 }
 
-.pick_flower_cintainer3 {
+.pick_flower_container3 {
     width: 464px;
     height: 538px;
     border-radius: 300px 300px 0px 0px;
-    background: rgba(71, 125, 17, 0.15);;
+    background: rgba(71, 125, 17, 0.15);
     text-align: center;
 }
-.pick_flower{
+
+.pick_flower {
     padding-top: 110px;
 
 }
-.pick_flower3{
+
+.pick_flower3 {
     padding-top: 67px;
 
 }
+
+.pick_flower_link {
+    display: flex;
+    gap: 307px
+}
+
+.pink_flower_name {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    padding-top: 32px;
+}
+
+.support_container {
+    height: 320px;
+    width: 1440px;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    margin: 128px auto;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.support_details {
+    color: rgba(39, 39, 39, 0.80);
+    text-align: center;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+    padding-top: 24px;
+}
+
+/* end featured flower section style  */
+
+/* start support section style  */
+
+
+
+/* end support section style  */
