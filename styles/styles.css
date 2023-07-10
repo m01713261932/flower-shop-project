@@ -15,6 +15,9 @@ body {
     width: 1920px;
     height: 850px;
     background-color: #E554731A;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .heading {
@@ -25,4 +28,31 @@ body {
     font-weight: 800;
     line-height: normal;
     width: 708px;
+    
+}
+
+.heading_description {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    width: 634px;
+    padding: 32px 0;
+}
+
+.common_button {
+    color: #FFF;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding: 20px 43px;
+    border-radius: 8px;
+    background: #E55473;
+    border: 2px solid #E55473;
+}
+
+.top_image{
+    padding-top: 50px;
 }
