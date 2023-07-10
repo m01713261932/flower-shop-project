@@ -225,12 +225,18 @@ body {
 /* gallery section  */
 
 
-.gallery{
+.gallery {
     width: 1920px;
     display: flex;
     justify-content: center;
     gap: 24px;
     padding-top: 48px;
+    padding-bottom: 128px;
 }
 
 /* gallery section  */
+
+/* supscribe secton  */
+
+
+/* supscribe secton  */
