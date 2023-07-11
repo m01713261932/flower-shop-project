@@ -236,6 +236,45 @@ body {
 
 /* gallery section  */
 
+/* physical flower shop  */
+
+.physical_flower_shop {
+    height: 620px;
+    width: 1920px;
+    background-color: #46ee130d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+
+}
+.physical_shop_location{
+   text-align: center;
+}
+.physical_title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+
+.physical_title span {
+    color: #E55473;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.physical_details {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 16px 0px 48px 0px;
+}
+
+
+
 /* supscribe secton  */
 
 .subscribe_main_div {
@@ -337,34 +376,4 @@ input ::placeholder {
     font-weight: 400;
 }
 
-/* physical flower shop  */
 
-.physical_flower_shop {
-    height: 620px;
-    width: 1920px;
-    background-color: #46ee130d;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
-}
-
-.physical_title {
-    color: #272727;
-    text-align: center;
-    font-size: 40px;
-    font-weight: 800;
-}
-
-.physical_details {
-    color: rgba(39, 39, 39, 0.60);
-    text-align: center;
-    font-size: 18px;
-    font-weight: 400;
-    line-height: 30px;
-    padding: 16px 0px 48px 0px;
-}
-
-.physical_flower_shop span {
-    color: #E55473;
-}
