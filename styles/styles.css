@@ -242,6 +242,7 @@ body {
     display: flex;
     width: 1920px;
     height: 706px;
+    align-items: center;
 }
 
 .subscribe_section {
@@ -280,7 +281,7 @@ body {
     height: 64px;
     border-radius: 8px;
     background-color: #FFF;
-    
+
 }
 
 input ::placeholder {
@@ -289,7 +290,81 @@ input ::placeholder {
     font-weight: 400;
 }
 
-.email_subscribe button{
+.email_subscribe button {
     margin-left: 16px;
 }
+
 /* supscribe secton  */
+
+/* footer section style  */
+
+.footer_section {
+    width: 1920px;
+    height: 450px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer_title {
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer_section span {
+    color: #E55473;
+}
+
+.footer_details {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 625px;
+    padding: 24px 0px 32px 0px;
+}
+
+.copyrights {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+/* physical flower shop  */
+
+.physical_flower_shop {
+    height: 620px;
+    width: 1920px;
+    background-color: #46ee130d;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.physical_title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.physical_details {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 16px 0px 48px 0px;
+}
+
+.physical_flower_shop span {
+    color: #E55473;
+}
