@@ -238,5 +238,55 @@ body {
 
 /* supscribe secton  */
 
+.subscribe_main_div {
+    display: flex;
+    width: 1920px;
+    height: 706px;
+}
+
+.subscribe_section {
+    height: 450px;
+    width: 1440px;
+    background-image: url('../images/Rectangle-9.png');
+    border-radius: 8px;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.get_latest_deals {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.coupon {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    padding: 16px 0px 48px 0px;
+}
+
+.email_input {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background-color: #FFF;
+    
+}
+
+
+
+input ::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-weight: 400;
+}
 
 /* supscribe secton  */
